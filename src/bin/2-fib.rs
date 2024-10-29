@@ -15,7 +15,7 @@ fn fib(num: i32) -> i32 {
         return second;
     }
 
-    for _ in r..num - 1 { // we used _ since we're not using the value of i in the for loop
+    for _ in 0..num - 1 { // we used _ since we're not using the value of i in the for loop
         let temp = second;
         second = second + first;
         first = temp;
