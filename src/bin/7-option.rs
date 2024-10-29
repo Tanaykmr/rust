@@ -7,7 +7,7 @@ fn main() {
 }
 
 fn find_first_a(s: String) -> Option<i32> {
-    for (index, char) in s.chars().enumerate() {
+    for (index, char) in s.chars().enumerate() { // we are able to do this because enumerate function returns a tuple of (index, char)
         if char == 'a' {
             return Some(index as i32);
         }
