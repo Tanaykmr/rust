@@ -6,5 +6,5 @@ fn main(){
 
 
 fn get_str_len(str: String) -> usize{
-    str.chars().count() 
+    str.chars().count() // this is an implicit return, we do have to write "return" or add a semicolon here
 }
