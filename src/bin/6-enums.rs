@@ -13,7 +13,7 @@ fn main() {
 fn calculate_area(shape: Shape) -> f64 {
     // we use pattern matching to see what shape we have as an input
     let area = match shape {
-        Shape::Rectangle(a, b) => a * b,
+        Shape::Rectangle(a, b) => a * b, //these are implicit returns
         Shape::Circle(r) => 3.14 * r * r,
     };
     return area;
