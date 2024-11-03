@@ -32,7 +32,6 @@ src
 │   ├── 23-strings.rs             # Working with strings in Rust
 │   ├── 24-strings-q1.rs          # String manipulation exercises
 │   ├── 25-traits.rs              # Using and defining traits
-│   └── tempCodeRunnerFile.rs     # Temporary code runner file
 └── main.rs                       # Main entry point for Rust exercises
 ```
 
