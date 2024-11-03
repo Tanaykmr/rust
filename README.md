@@ -56,9 +56,9 @@ To run any of the exercises, navigate to the src/bin folder and use the followin
 
 Replace <filename> with the name of the file you want to run (without the .rs extension).
 
-Requirements
+## Requirements
 
-	•	Rust: Make sure to have the latest version of Rust installed. You can install it via rustup.
+- **Rust**: Make sure to have the latest version of Rust installed. You can install it via [rustup](https://www.rust-lang.org/tools/install).
 
 ## Contributing
 
